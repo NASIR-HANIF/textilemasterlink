@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(167, 169, 170);
+    display: flex;
+    justify-content: center;
+    
+}
+.main-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    min-height: 90vh;
+    margin: auto;
+    padding: 20px 10px;
+    background-color: rgb(19, 179, 96);
+}
+.main-box h2{
+    text-align: center;
+    font-weight: bold;
+    color: #150695;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.read-secreen{
+    width: 100%;
+padding: 10px;
+font-size: 20px;
+color: #150695;
+background-color: rgb(214, 214, 211);
+}
+
+form{
+    width: 90%;
+   
+}
+
+.select-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.select-box select{
+    padding: 10px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    color: rgb(17, 84, 143);
+    background-color: rgb(214, 214, 211);
+}
+ option{
+    font-size: 25px;
+    background-color: rgb(214, 214, 211);
+    border-radius: 3px;
+}
+.btn-box{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+}
+.btn-box button{
+    padding: 5px;
+    font-size: 32px;
+    width: 100%;
+    
+}
+ /* histery styling start */
+
+ .history-box{
+    width: 100%;
+ }
+ .histary-child{
+    margin: 10px auto;
+    width: 90%;
+    
+ }
+ .histary-child h3{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    background-color: blueviolet;
+ }
+ .pick-name-box {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    padding: 5px;
+    background-color: rgb(230, 227, 227);
+ }
+ .pick-name-box span{
+font-size: 22px;
+ }
+ .his-res{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    padding: 5px;
+    background-color: rgb(230, 227, 227);
+ }
